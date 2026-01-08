@@ -1,0 +1,117 @@
+html, body {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    cursor: url('https://img.icons8.com/?size=48&id=jLkEh2zFhThT&format=png'), auto;
+
+}
+
+.first {
+    background-color: lightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+                 'Lucida Sans Unicode', Verdana, sans-serif;
+    padding: 0 30px 15px 30px;
+    font-size: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.name {
+    padding: 20px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.name h1 {
+  color: #333;
+  text-shadow: 0 0 8px rgb(152, 214, 6);
+}
+
+.aboutme {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px 0 15px 0;
+    font-size: 50px;
+}
+
+.divider {
+    height: 3px;
+    background-color: black;
+    width: 100%;        
+    margin: 0;
+    border: none;
+}
+
+hr{
+    height: 5px;
+    background-color: black;
+}
+
+.second {
+    background-color: rgb(1, 177, 72);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+                 'Lucida Sans Unicode', Verdana, sans-serif;
+    padding: 0 30px 15px 30px;
+    font-size: 40px;
+    width: 100%;
+}
+
+.programminglan, .education{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px 0 15px 0;
+
+}
+
+img{
+    width: auto;
+    height: 250px;
+}
+
+.third {
+    background-color: rgb(215, 134, 3);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+                 'Lucida Sans Unicode', Verdana, sans-serif;
+    padding: 0 30px 15px 30px;
+    font-size: 40px;
+    width: 100%;
+}
+
+ul {
+  padding-left: 60px;
+  margin: 0;
+}
+
+li {
+  font-size: 34px;
+}
+
+.forth {
+    background-color: rgb(4, 66, 128);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+                 'Lucida Sans Unicode', Verdana, sans-serif;
+    padding: 0 30px 15px 30px;
+    font-size: 40px;
+    width: 100%;
+}
+
+.projects{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px 0 15px 0;
+    text-align: center;
+}
+
+@media(max-width:600px){
+    .name{
+        font-size: 40px;
+    }
+
+    ul{
+        width: 70%;
+    }
+
+    .programminglan, img{
+        font-size: 25px;
+        width: auto;
+    }
+}
